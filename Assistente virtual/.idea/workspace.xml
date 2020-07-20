@@ -24,7 +24,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Python.ex_03">
+  <component name="RunManager" selected="Python.condicional_SWITCH">
     <configuration name="Aula01_PythonBasico" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Assistente virtual com Python e Arduino" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -38,6 +38,90 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/01 - Introdução ao Python I/Aula01_PythonBasico.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="condicional_FOR" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="Assistente virtual com Python e Arduino" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/02 - Introdução ao Python II" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/02 - Introdução ao Python II/condicional_FOR.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="condicional_IF" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="Assistente virtual com Python e Arduino" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/02 - Introdução ao Python II" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/02 - Introdução ao Python II/condicional_IF.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="condicional_SWITCH" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="Assistente virtual com Python e Arduino" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/02 - Introdução ao Python II" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/02 - Introdução ao Python II/condicional_SWITCH.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="condicional_WHILE" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="Assistente virtual com Python e Arduino" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/02 - Introdução ao Python II" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/02 - Introdução ao Python II/condicional_WHILE.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -132,25 +216,41 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="645" height="169" key="GridCell.Tab.0.bottom" timestamp="1594822049891">
+    <state x="744" y="0" key="#condicional_FOR" timestamp="1594852101471">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="645" height="169" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1594822049891" />
-    <state width="645" height="169" key="GridCell.Tab.0.center" timestamp="1594822049891">
+    <state x="744" y="0" key="#condicional_FOR/0.0.1366.728@0.0.1366.728" timestamp="1594852101471" />
+    <state x="744" y="0" key="#condicional_IF" timestamp="1594850985371">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="645" height="169" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1594822049891" />
-    <state width="645" height="169" key="GridCell.Tab.0.left" timestamp="1594822049891">
+    <state x="744" y="0" key="#condicional_IF/0.0.1366.728@0.0.1366.728" timestamp="1594850985371" />
+    <state x="744" y="0" key="#condicional_SWITCH" timestamp="1594853846075">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="645" height="169" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1594822049891" />
-    <state width="645" height="169" key="GridCell.Tab.0.right" timestamp="1594822049891">
+    <state x="744" y="0" key="#condicional_SWITCH/0.0.1366.728@0.0.1366.728" timestamp="1594853846075" />
+    <state x="744" y="0" key="#condicional_WHILE" timestamp="1594852989887">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="645" height="169" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1594822049891" />
-    <state x="720" y="186" key="com.intellij.ide.util.TipDialog" timestamp="1594816210697">
+    <state x="744" y="0" key="#condicional_WHILE/0.0.1366.728@0.0.1366.728" timestamp="1594852989887" />
+    <state width="645" height="169" key="GridCell.Tab.0.bottom" timestamp="1595254060016">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="720" y="186" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1594816210697" />
+    <state width="645" height="169" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1595254060016" />
+    <state width="645" height="169" key="GridCell.Tab.0.center" timestamp="1595254060015">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="645" height="169" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1595254060015" />
+    <state width="645" height="169" key="GridCell.Tab.0.left" timestamp="1595254060015">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="645" height="169" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1595254060015" />
+    <state width="645" height="169" key="GridCell.Tab.0.right" timestamp="1595254060015">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="645" height="169" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1595254060015" />
+    <state x="720" y="186" key="com.intellij.ide.util.TipDialog" timestamp="1595250595551">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="720" y="186" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1595250595551" />
   </component>
 </project>
