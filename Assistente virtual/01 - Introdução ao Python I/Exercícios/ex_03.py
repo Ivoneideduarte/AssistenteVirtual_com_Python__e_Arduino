@@ -19,28 +19,30 @@ if codigo == 1:
     novo = salario + (salario * 45 / 100)
     print('Quem ganhava R${:.2f} passa a ganhar R${:.2f} agora.'.format(salario, novo))
 
-if codigo == 2:
+elif codigo == 2:
 
     print('Seu cargo é de Tesoureiro')
     salario = float(input('Qual o seu sálario atual? R$'))
     novo = salario + (salario * 35 / 100)
     print('Quem ganhava R${:.2f} passa a ganhar R${:.2f} agora.'.format(salario, novo))
 
-if codigo == 3:
+elif codigo == 3:
 
     print('Seu cargo é de Professor')
     salario = float(input('Qual o seu sálario atual? R$'))
     novo = salario + (salario * 25 / 100)
     print('Quem ganhava R${:.2f} passa a ganhar R${:.2f} agora.'.format(salario, novo))
 
-if codigo == 4:
+elif codigo == 4:
 
     print('Seu cargo é de Coordenador')
     salario = float(input('Qual o seu sálario atual? R$'))
     novo = salario + (salario * 15 / 100)
     print('Quem ganhava R${:.2f} passa a ganhar R${:.2f} agora.'.format(salario, novo))
 
-if codigo == 5:
+elif codigo == 5:
 
     print('Seu cargo é de Diretor')
     print('Não tem aumento')
+else:
+    print('Código inválido!')

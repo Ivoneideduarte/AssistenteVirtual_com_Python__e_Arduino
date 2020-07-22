@@ -1,0 +1,15 @@
+Instalei a versão do Python 3.7.7 com o PATH
+
+Depois, fui nas configurações do Pycharm -> Menu(File - Settings - Project(Project Interpreter)) e informei o endereço da instalação do meu Python
+Ex: 'C:\Users\Ivo\AppData\Local\Programs\Python\Python37' e escolho a opção 'python.exe' e finalizo.
+
+Prompt de comando:
+
+Comandos que funcionaram:
+
+pip install pipwin
+pipwin install pyaudio
+
+Esse não foi preciso usar:
+
+python pip install python-pyaudio

@@ -17,15 +17,16 @@
   <component name="ProjectId" id="1eeNS6haPzwA2K8x5JPt4AVYqvt" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.condicional_SWITCH">
-    <configuration name="Aula01_PythonBasico" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.pyFalando">
+    <configuration name="Aula01_PythonBasico" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Assistente virtual com Python e Arduino" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -130,6 +131,48 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="desafio01" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Assistente virtual com Python e Arduino" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../../Curso de Python - Curso em vídeo/CursoDePython3/Mundo 1 - Fundamentos/01 - Primeiros passos com o Python/Desafio 01" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../../Curso de Python - Curso em vídeo/CursoDePython3/Mundo 1 - Fundamentos/01 - Primeiros passos com o Python/Desafio 01/desafio01.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="desafio02" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Assistente virtual com Python e Arduino" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../../../../Repositório Git e GitHub/Meus projetos/CursoDePython/CursoDePython3/Mundo 1 - Fundamentos/01 - Primeiros passos com o Python/Desafio 02" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../../../../Repositório Git e GitHub/Meus projetos/CursoDePython/CursoDePython3/Mundo 1 - Fundamentos/01 - Primeiros passos com o Python/Desafio 02/desafio02.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="ex_01" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Assistente virtual com Python e Arduino" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -193,12 +236,97 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="pyFalando" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="Assistente virtual com Python e Arduino" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/03 - Assitente Virtual com Python I" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/03 - Assitente Virtual com Python I/pyFalando.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pyOuvindo" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="Assistente virtual com Python e Arduino" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/03 - Assitente Virtual com Python I" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/03 - Assitente Virtual com Python I/pyOuvindo.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="teste" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="Assistente virtual com Python e Arduino" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/teste.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="testes" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="Assistente virtual com Python e Arduino" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/02 - Introdução ao Python II" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/02 - Introdução ao Python II/testes.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.ex_03" />
         <item itemvalue="Python.ex_02" />
+        <item itemvalue="Python.ex_03" />
+        <item itemvalue="Python.desafio02" />
+        <item itemvalue="Python.desafio01" />
         <item itemvalue="Python.ex_01" />
-        <item itemvalue="Python.Aula01_PythonBasico" />
       </list>
     </recent_temporary>
   </component>
@@ -216,6 +344,14 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="392" y="0" key="#Aula01_PythonBasico" timestamp="1595427223033">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="392" y="0" key="#Aula01_PythonBasico/0.0.1366.728@0.0.1366.728" timestamp="1595427223033" />
+    <state x="550" y="21" key="#Inspections" timestamp="1595276901468">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="550" y="21" key="#Inspections/0.0.1366.728@0.0.1366.728" timestamp="1595276901468" />
     <state x="744" y="0" key="#condicional_FOR" timestamp="1594852101471">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -232,25 +368,49 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="744" y="0" key="#condicional_WHILE/0.0.1366.728@0.0.1366.728" timestamp="1594852989887" />
-    <state width="645" height="169" key="GridCell.Tab.0.bottom" timestamp="1595254060016">
+    <state x="744" y="0" key="#pyFalando" timestamp="1595283389148">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="645" height="169" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1595254060016" />
-    <state width="645" height="169" key="GridCell.Tab.0.center" timestamp="1595254060015">
+    <state x="744" y="0" key="#pyFalando/0.0.1366.728@0.0.1366.728" timestamp="1595283389148" />
+    <state x="744" y="0" key="#pyOuvindo" timestamp="1595284171725">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="645" height="169" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1595254060015" />
-    <state width="645" height="169" key="GridCell.Tab.0.left" timestamp="1595254060015">
+    <state x="744" y="0" key="#pyOuvindo/0.0.1366.728@0.0.1366.728" timestamp="1595284171725" />
+    <state x="392" y="0" key="#teste" timestamp="1595441484078">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="645" height="169" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1595254060015" />
-    <state width="645" height="169" key="GridCell.Tab.0.right" timestamp="1595254060015">
+    <state x="392" y="0" key="#teste/0.0.1366.728@0.0.1366.728" timestamp="1595441484078" />
+    <state x="744" y="0" key="#testes" timestamp="1595268531751">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="645" height="169" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1595254060015" />
-    <state x="720" y="186" key="com.intellij.ide.util.TipDialog" timestamp="1595250595551">
+    <state x="744" y="0" key="#testes/0.0.1366.728@0.0.1366.728" timestamp="1595268531751" />
+    <state x="804" y="117" key="FileChooserDialogImpl" timestamp="1595439968546">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="720" y="186" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1595250595551" />
+    <state x="804" y="117" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1595439968546" />
+    <state width="1344" height="320" key="GridCell.Tab.0.bottom" timestamp="1595442363607">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1344" height="320" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1595442363607" />
+    <state width="1344" height="320" key="GridCell.Tab.0.center" timestamp="1595442363607">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1344" height="320" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1595442363607" />
+    <state width="1344" height="320" key="GridCell.Tab.0.left" timestamp="1595442363607">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1344" height="320" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1595442363607" />
+    <state width="1344" height="320" key="GridCell.Tab.0.right" timestamp="1595442363607">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1344" height="320" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1595442363607" />
+    <state x="368" y="0" key="SettingsEditor" timestamp="1595442216451">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="368" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1595442216451" />
+    <state x="720" y="186" key="com.intellij.ide.util.TipDialog" timestamp="1595357738315">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="720" y="186" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1595357738315" />
   </component>
 </project>
