@@ -1,4 +1,5 @@
 Instalei a versão do Python 3.7.7 com o PATH
+https://www.python.org/downloads/release/python-377/
 
 Depois, fui nas configurações do Pycharm -> Menu(File - Settings - Project(Project Interpreter)) e informei o endereço da instalação do meu Python
 Ex: 'C:\Users\Ivo\AppData\Local\Programs\Python\Python37' e escolho a opção 'python.exe' e finalizo.
@@ -13,3 +14,10 @@ pipwin install pyaudio
 Esse não foi preciso usar:
 
 python pip install python-pyaudio
+
+Tentativas para possiveis erros:
+Versão do Python 3.6.0 - Versões anteriores para testar
+
+python -m pip install pyaudio
+python -m pip install –upgrade pip
+python -m pip install --upgrade pip
