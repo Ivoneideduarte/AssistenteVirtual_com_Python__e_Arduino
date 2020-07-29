@@ -1,3 +1,0 @@
-Aula04 - Curso de Python com Arduino: Função, Argumento e Loop
-
-https://www.youtube.com/watch?v=OKXCwuuZZqM&feature=youtu.be

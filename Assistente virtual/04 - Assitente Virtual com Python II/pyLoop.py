@@ -34,12 +34,13 @@ m = 0
 def calculadora(x=0, y=0, z=0): #Função
     global m
     m = x + y + z
-    print('A soma temporária é: {}'.format(m))
+    print(f'A soma temporária é: {m}')
 
 #Programa principal
 while True:
     print('Programa principal')
-    x = int(input('Digite outro número: '))
+
+    x = int(input('Digite um número: '))
     y = int(input('Digite outro número: '))
     z = int(input('Digite outro número: '))
     calculadora(x)
@@ -52,4 +53,3 @@ while True:
         break
 
 print('Não entrei em canto nenhum.')
-

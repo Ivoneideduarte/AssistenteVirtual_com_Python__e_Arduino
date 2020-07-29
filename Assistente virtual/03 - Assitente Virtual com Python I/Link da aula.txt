@@ -1,3 +1,0 @@
-Aula03 - Curso de Python com Arduino: Executando Audio e Reconhecimento voz
-
-https://www.youtube.com/watch?v=bPnFP1EoQRE&feature=youtu.be
