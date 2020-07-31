@@ -1,0 +1,4 @@
+Abra o prompt de comando(CMD):
+
+Instalar: pip install pyinstaller
+Gerar executável: pyinstaller nome_arquivo.py

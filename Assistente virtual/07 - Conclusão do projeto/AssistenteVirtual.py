@@ -10,15 +10,17 @@ desligarArduinoThread = False
 mensagensRecebidas = 1
 serialArduino = 0
 
-# posso criar inputs para esses parâmetros
 portaCOM = 'COM5'
-velocidadeBaud = 115200
+velocidadeBaud = '115200'
+
+'''portaCOM = str(input('Digite a porta COM do seu Arduino: ')).lower()
+velocidadeBaud = int(input('Qual a velocidade de Baud: '))'''
 
 # Se isso for válido, entra aqui
 try:
     # Comunicação com a serial
     serialArduino = serial.Serial(portaCOM, velocidadeBaud, timeout=0.2)
-    print('Conectado!')
+    print('\033[1;32mConectado!\033[m')
 
 # Se não for válido, entra aqui
 except:
@@ -51,9 +53,9 @@ def read_from_port(ser):
 
 
 def mensagem(msg):
-    print('=' * 35)
+    print('\033[1;34m=\033[m' * 35)
     print(msg)
-    print('=' * 35)
+    print('\033[1;34m=\033[m' * 35)
 
 
 def comando_de_Voz(msg):
@@ -70,31 +72,45 @@ def ajuste_ruido_ambiente(msg):
     print('Enviando para reconhecimento...')
 
 
+def ligarObjetos(comando):
+    print('\033[1;32mPronto, está ligado!\033[m')
+    comando_de_Voz('Pronto, está ligado!')
+    serialArduino.write(comando.encode())
+    time.sleep(2)
+
+
+def desligarObjetos(comando):
+    print('\033[1;31mPronto, está desligado!\33[m')
+    comando_de_Voz('Pronto, está desligado!')
+    serialArduino.write(comando.encode())
+    time.sleep(2)
+
+
 lerSerialThread = threading.Thread(target=read_from_port, args=(serialArduino,))
 lerSerialThread.start()
 
-print('Preparando o Arduino')
+print('\033[7;33mPreparando o Arduino...\033[m')
 time.sleep(2)
-print('Arduino pronto!')
+print('\033[1;32mArduino pronto!\033[m')
 
 engine = pyttsx3.init()  # Ativa o pacote pyttsx3
 r = sr.Recognizer()  # Ativa o reconhecimento de fala e áudio
 mic = sr.Microphone()  # Habilita o microfone do PC
 audio = 0
 
-mensagem('ASSISTENTE VIRTUAL COM PYTHON')
+mensagem('\033[1;34mASSISTENTE VIRTUAL COM PYTHON\033[m')
 
 with mic as fonte:
-    print('Para iniciarmos uma conversa, me chame pelo meu nome: Python!')
-    ajuste_ruido_ambiente('Para iniciarmos uma conversa, me chame pelo meu nome: Python!')
+    print('Para iniciarmos uma conversa, me chame pelo meu nome: Arduino!')
+    ajuste_ruido_ambiente('Para iniciarmos uma conversa, me chame pelo meu nome: Arduino!')
 
     try:
         text = r.recognize_google(audio, language="pt-BR")
         comando_de_Voz(f'Você disse {text}, já que está correto, podemos iniciar')
 
         text = text.lower()
-        while text == "python":
-            print('Olá, qual o seu nome?')
+        while text == "arduino":
+            print('\033[1;35mOlá, qual o seu nome?\033[m')
             ajuste_ruido_ambiente('Olá, qual o seu nome?')
 
             try:
@@ -104,37 +120,38 @@ with mic as fonte:
 
                 '''O Assistente está habilitado para o modo conversa a partir daqui'''
                 text = text.lower()
-                while text == "python":
+                while text == "arduino":
                     text3 = r.recognize_google(audio, language="pt-BR")
-                    mensagem(f'Em que posso ajudá-la, {text2}?')
+                    mensagem(f'\033[1;34mEm que posso ajudá-la, {text2}?\033[m')
                     ajuste_ruido_ambiente(f'Em que posso ajudá-la, {text2}?')
 
                     try:
                         text3 = r.recognize_google(audio, language="pt-BR")
 
                         text3 = text3.lower()
-                        if text3 == 'ligar led':
-                            print('Pronto, está ligado!')
-                            comando_de_Voz('Pronto, está ligado!')
-                            serialArduino.write('ligar led\n'.encode())
-                            time.sleep(2)
-                        elif text3 == 'desligar led':
-                            print('Pronto, está desligado!')
-                            comando_de_Voz('Pronto, está desligado!')
-                            serialArduino.write('desligar led\n'.encode())
-                            time.sleep(2)
+                        if text3 == 'ligar luz do quarto':
+                            ligarObjetos('ligar luz do quarto\n')
+                        elif text3 == 'desligar luz do quarto':
+                            desligarObjetos('desligar luz do quarto\n')
+                        elif text3 == 'ligar luz da sala':
+                            ligarObjetos('ligar luz da sala\n')
+                        elif text3 == 'desligar luz da sala':
+                            desligarObjetos('desligar luz da sala\n')
+                        elif text3 == 'ligar luz do banheiro':
+                            ligarObjetos('ligar luz do banheiro\n')
+                        elif text3 == 'desligar luz do banheiro':
+                            desligarObjetos('desligar luz do banheiro\n')
                         elif text3 == 'dispensado':
                             text = text3
                             print('Certo, até mais!')
                             comando_de_Voz('Certo, até mais!')
                             print("")
-
                     except:
-                        print('Desculpe, não entendi o que você disse!')
+                        print('\033[1;30;41mDesculpe, não entendi o que você disse!\033[m')
                         comando_de_Voz('Desculpe, não entendi o que você disse!')
             except:
-                print('Desculpe, não entendi o que você disse!')
+                print('\033[1;30;41mDesculpe, não entendi o que você disse!\033[m')
                 comando_de_Voz('Desculpe, não entendi o que você disse!')
     except:
-        print('você errou o meu nome, por isso, não podemos conversar')
-        comando_de_Voz('você errou o meu nome, por isso, não podemos conversar')
+        print('\033[1;30;41mvocê errou o meu nome, por isso, não podemos conversar.\033[m')
+        comando_de_Voz('você errou o meu nome, por isso, não podemos conversar.')

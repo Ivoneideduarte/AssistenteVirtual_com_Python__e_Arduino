@@ -1,0 +1,44 @@
+('D:\\Meus arquivos principais\\CURSOS\\Lista de Cursos\\Curso de Robótica - '
+ 'Escola Pixels\\Assistente virtual com Python e Arduino\\07 - Conclusão do '
+ 'projeto\\build\\AssistenteVirtual\\PKG-00.pkg',
+ {'BINARY': 1,
+  'DATA': 1,
+  'EXECUTABLE': 1,
+  'EXTENSION': 1,
+  'PYMODULE': 1,
+  'PYSOURCE': 1,
+  'PYZ': 0},
+ [('PYZ-00.pyz',
+   'D:\\Meus arquivos principais\\CURSOS\\Lista de Cursos\\Curso de Robótica - '
+   'Escola Pixels\\Assistente virtual com Python e Arduino\\07 - Conclusão do '
+   'projeto\\build\\AssistenteVirtual\\PYZ-00.pyz',
+   'PYZ'),
+  ('struct',
+   'c:\\users\\ivo\\appdata\\local\\programs\\python\\python37\\lib\\struct.pyo',
+   'PYMODULE'),
+  ('pyimod01_os_path',
+   'c:\\users\\ivo\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PyInstaller\\loader\\pyimod01_os_path.pyc',
+   'PYMODULE'),
+  ('pyimod02_archive',
+   'c:\\users\\ivo\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PyInstaller\\loader\\pyimod02_archive.pyc',
+   'PYMODULE'),
+  ('pyimod03_importers',
+   'c:\\users\\ivo\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PyInstaller\\loader\\pyimod03_importers.pyc',
+   'PYMODULE'),
+  ('pyiboot01_bootstrap',
+   'c:\\users\\ivo\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PyInstaller\\loader\\pyiboot01_bootstrap.py',
+   'PYSOURCE'),
+  ('AssistenteVirtual',
+   'D:\\Meus arquivos principais\\CURSOS\\Lista de Cursos\\Curso de Robótica - '
+   'Escola Pixels\\Assistente virtual com Python e Arduino\\07 - Conclusão do '
+   'projeto\\AssistenteVirtual.py',
+   'PYSOURCE'),
+  ('AssistenteVirtual.exe.manifest',
+   'D:\\Meus arquivos principais\\CURSOS\\Lista de Cursos\\Curso de Robótica - '
+   'Escola Pixels\\Assistente virtual com Python e Arduino\\07 - Conclusão do '
+   'projeto\\build\\AssistenteVirtual\\AssistenteVirtual.exe.manifest',
+   'BINARY')],
+ True,
+ False,
+ False,
+ [])

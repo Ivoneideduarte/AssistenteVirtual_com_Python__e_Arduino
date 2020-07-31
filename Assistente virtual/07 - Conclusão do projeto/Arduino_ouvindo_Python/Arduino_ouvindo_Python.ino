@@ -1,11 +1,19 @@
 char letra;                 //Inicializa como string vazia
 String frase = "";          //Inicializa vazia
 bool fraseCompleta = false; //Inicializa em falso
-String led = "desligado";   //O LED inicializa desligado
-#define ledBlink 12
+String luzQuarto = "desligado";
+String luzSala = "desligado";
+String luzBanheiro = "desligado";
+String luzEscritorio = "desligado";
+#define luz_Quarto 2
+#define luz_Sala 3
+#define luz_Banheiro 4 
 
 void setup()
 {
+  pinMode(luz_Quarto, OUTPUT);
+  pinMode(luz_Sala, OUTPUT);
+  pinMode(luz_Banheiro, OUTPUT);
   Serial.begin(115200);
 }
 
@@ -14,41 +22,86 @@ void loop()
   if (fraseCompleta)
   {
     Serial.println("Frase tratada: " + frase); //Mostra na serial o texto escrito
-    if (frase.startsWith("ligar"))
+    if (frase.startsWith("ligar luz do quarto"))
     { //Testa se uma String começa ou não com os caracteres de uma outra String
-      if (led == "ligado")
+      if (luzQuarto == "ligado")
       {
-        Serial.println("O led já está " + led);
+        Serial.println("A luz do quarto já está " + luzQuarto);
       }
       else
       {
-        Serial.println("Ligando luz. \n");
-        digitalWrite(ledBlink, HIGH);
-        led = "ligado";
+        Serial.println("Ligando luz do quarto. \n");
+        digitalWrite(luz_Quarto, HIGH);
+        luzQuarto = "ligado";
       }
     }
-    else if (frase.startsWith("desligar"))
+    else if (frase.startsWith("desligar luz do quarto"))
     {
-      if (ledBlink == "desligado")
+      if (luzQuarto == "desligado")
       {
-        Serial.println("O led já está " + led);
+        Serial.println("A luz do quarto já está " + luzQuarto);
       }
       else
       {
-        Serial.println("Desligando luz. \n");
-        digitalWrite(ledBlink, LOW);
-        led = "desligado";
+        Serial.println("Desligando luz do quarto. \n");
+        digitalWrite(luz_Quarto, LOW);
+        luzQuarto = "desligado";
       }
     }
-//    else if (frase.lastIndexOf("ligar"))
-//    { //Localiza um caractere ou String dentro de outra String.
-//      if (frase.lastIndexOf("lampada"))
-//      {
-//        Serial.println("Ligando a lampada. \n");
-//        //Fogão = true; ligado
-//        //eletrodomestico();
-//      }
-//    }
+
+    else if (frase.startsWith("ligar luz da sala"))
+    { //Testa se uma String começa ou não com os caracteres de uma outra String
+      if (luzSala == "ligado")
+      {
+        Serial.println("A luz da sala já está " + luzSala);
+      }
+      else
+      {
+        Serial.println("Ligando luz da sala. \n");
+        digitalWrite(luz_Sala, HIGH);
+        luzSala = "ligado";
+      }
+    }
+    else if (frase.startsWith("desligar luz da sala"))
+    {
+      if (luzSala == "desligado")
+      {
+        Serial.println("A luz da sala já está " + luzSala);
+      }
+      else
+      {
+        Serial.println("Desligando luz da sala. \n");
+        digitalWrite(luz_Sala, LOW);
+        luzSala = "desligado";
+      }
+    }
+
+    else if (frase.startsWith("ligar luz do banheiro"))
+    { //Testa se uma String começa ou não com os caracteres de uma outra String
+      if (luzBanheiro == "ligado")
+      {
+        Serial.println("A luz do banheiro já está " + luzBanheiro);
+      }
+      else
+      {
+        Serial.println("Ligando luz do banheiro. \n");
+        digitalWrite(luz_Banheiro, HIGH);
+        luzBanheiro = "ligado";
+      }
+    }
+    else if (frase.startsWith("desligar luz do banheiro"))
+    {
+      if (luzBanheiro == "desligado")
+      {
+        Serial.println("A luz do banheiro já está " + luzBanheiro);
+      }
+      else
+      {
+        Serial.println("Desligando luz do banheiro. \n");
+        digitalWrite(luz_Banheiro, LOW);
+        luzBanheiro = "desligado";
+      }
+    }
     else Serial.println("Não reconheço este comando!");
 
     frase = "";
@@ -63,11 +116,6 @@ void serialEvent()
     letra = char(Serial.read());
     if (letra == char(10))
     {
-      //      Serial.println("Tudo minusculo: " + frase);
-      //      frase.toLowerCase(); //Converte para letra minuscula
-      //      Serial.println("Tudo maiusculo: " + frase);
-      //      frase.toUpperCase();
-
       fraseCompleta = true;
     }
     else frase += letra;
