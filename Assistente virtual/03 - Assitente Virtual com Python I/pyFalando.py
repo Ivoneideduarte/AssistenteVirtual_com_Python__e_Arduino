@@ -24,7 +24,7 @@ text = input('Me informe o seu nome, por favor? ')
 engine = pyttsx3.init() #Inicialização do pacote
 #Para esse caso a concatenação com + é importante
 #engine.say('Prazer ' + text)
-engine.say('Seu acesso foi liberado, {}!'.format(text)) #Executa uma fala
+engine.say(f'Seu acesso foi liberado, {text}!') #Executa uma fala
 engine.runAndWait() #Roda o comando da fala e aguarda um tempo
 engine.stop() #Para o programa
 

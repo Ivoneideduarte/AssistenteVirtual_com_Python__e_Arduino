@@ -2,10 +2,11 @@ char letra;                 //Inicializa como string vazia
 String frase = "";          //Inicializa vazia
 bool fraseCompleta = false; //Inicializa em falso
 String led = "desligado";   //O LED inicializa desligado
+#define ledBlink 12
 
 void setup()
 {
-  Serial.begin(9600);
+  Serial.begin(115200);
 }
 
 void loop()
@@ -22,18 +23,20 @@ void loop()
       else
       {
         Serial.println("Ligando luz. \n");
+        digitalWrite(ledBlink, HIGH);
         led = "ligado";
       }
     }
     else if (frase.startsWith("desligar"))
     {
-      if (led == "desligado")
+      if (ledBlink == "desligado")
       {
         Serial.println("O led já está " + led);
       }
       else
       {
         Serial.println("Desligando luz. \n");
+        digitalWrite(ledBlink, LOW);
         led = "desligado";
       }
     }

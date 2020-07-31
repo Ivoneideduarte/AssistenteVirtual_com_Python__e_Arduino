@@ -26,6 +26,7 @@ def ajuste_ruido_ambiente(msg):
 engine = pyttsx3.init()
 r = sr.Recognizer()
 mic = sr.Microphone()
+audio = 0
 
 mensagem('ASSISTENTE VIRTUAL COM PYTHON')
 nome = input('\nQual o seu nome? ')

@@ -14,10 +14,10 @@ void loop()
   {
     Serial.println("Frase tratada: " + frase); //Mostra na serial o texto escrito
     if (frase.startsWith("ligar"))
-    { //Testa se uma String come√ßa ou n√£o com os caracteres de uma outra String
+    { //Testa se uma String comeÁa ou n„o com os caracteres de uma outra String
       if (led == "ligado")
       {
-        Serial.println("O led j√° est√° " + led);
+        Serial.println("O led j· est· " + led);
       }
       else
       {
@@ -29,7 +29,7 @@ void loop()
     {
       if (led == "desligado")
       {
-        Serial.println("O led j√° est√° " + led);
+        Serial.println("O led j· est· " + led);
       }
       else
       {
@@ -42,11 +42,11 @@ void loop()
 //      if (frase.lastIndexOf("lampada"))
 //      {
 //        Serial.println("Ligando a lampada. \n");
-//        //Fog√£o = true; ligado
+//        //Fog„o = true; ligado
 //        //eletrodomestico();
 //      }
 //    }
-    else Serial.println("N√£o reconhe√ßo este comando!");
+    else Serial.println("N„o reconheÁo este comando!");
 
     frase = "";
     fraseCompleta = false;
