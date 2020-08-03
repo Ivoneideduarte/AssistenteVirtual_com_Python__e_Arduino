@@ -129,23 +129,17 @@ with mic as fonte:
                         text3 = r.recognize_google(audio, language="pt-BR")
 
                         text3 = text3.lower()
-                        if text3 == 'ligar luz do quarto':
-                            ligarObjetos('ligar luz do quarto\n')
-                        elif text3 == 'desligar luz do quarto':
-                            desligarObjetos('desligar luz do quarto\n')
-                        elif text3 == 'ligar luz da sala':
-                            ligarObjetos('ligar luz da sala\n')
-                        elif text3 == 'desligar luz da sala':
-                            desligarObjetos('desligar luz da sala\n')
-                        elif text3 == 'ligar luz do banheiro':
-                            ligarObjetos('ligar luz do banheiro\n')
-                        elif text3 == 'desligar luz do banheiro':
-                            desligarObjetos('desligar luz do banheiro\n')
+                        if text3 == 'ligar luz':
+                            ligarObjetos('ligar luz\n')
+                        elif text3 == 'desligar luz':
+                            desligarObjetos('desligar luz\n')
                         elif text3 == 'dispensado':
                             text = text3
                             print('Certo, até mais!')
                             comando_de_Voz('Certo, até mais!')
                             print("")
+                        else:
+                            print('Não reconheço este comando!')
                     except:
                         print('\033[1;30;41mDesculpe, não entendi o que você disse!\033[m')
                         comando_de_Voz('Desculpe, não entendi o que você disse!')

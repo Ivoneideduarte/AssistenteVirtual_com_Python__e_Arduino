@@ -1,19 +1,12 @@
 char letra;                 //Inicializa como string vazia
 String frase = "";          //Inicializa vazia
 bool fraseCompleta = false; //Inicializa em falso
-String luzQuarto = "desligado";
-String luzSala = "desligado";
-String luzBanheiro = "desligado";
-String luzEscritorio = "desligado";
-#define luz_Quarto 2
-#define luz_Sala 3
-#define luz_Banheiro 4 
+String luz = "desligado";
+#define rele_luz 8
 
 void setup()
 {
-  pinMode(luz_Quarto, OUTPUT);
-  pinMode(luz_Sala, OUTPUT);
-  pinMode(luz_Banheiro, OUTPUT);
+  pinMode(rele_luz, OUTPUT);
   Serial.begin(115200);
 }
 
@@ -22,84 +15,30 @@ void loop()
   if (fraseCompleta)
   {
     Serial.println("Frase tratada: " + frase); //Mostra na serial o texto escrito
-    if (frase.startsWith("ligar luz do quarto"))
+    if (frase.startsWith("ligar luz"))
     { //Testa se uma String começa ou não com os caracteres de uma outra String
-      if (luzQuarto == "ligado")
+      if (luz == "ligado")
       {
-        Serial.println("A luz do quarto já está " + luzQuarto);
+        Serial.println("A luz já está " + luz);
       }
       else
       {
-        Serial.println("Ligando luz do quarto. \n");
-        digitalWrite(luz_Quarto, HIGH);
-        luzQuarto = "ligado";
+        Serial.println("Ligando a luz. \n");
+        digitalWrite(rele_luz, HIGH);
+        luz = "ligado";
       }
     }
-    else if (frase.startsWith("desligar luz do quarto"))
+    else if (frase.startsWith("desligar luz"))
     {
-      if (luzQuarto == "desligado")
+      if (luz == "desligado")
       {
-        Serial.println("A luz do quarto já está " + luzQuarto);
+        Serial.println("A lâmpada já está " + luz);
       }
       else
       {
-        Serial.println("Desligando luz do quarto. \n");
-        digitalWrite(luz_Quarto, LOW);
-        luzQuarto = "desligado";
-      }
-    }
-
-    else if (frase.startsWith("ligar luz da sala"))
-    { //Testa se uma String começa ou não com os caracteres de uma outra String
-      if (luzSala == "ligado")
-      {
-        Serial.println("A luz da sala já está " + luzSala);
-      }
-      else
-      {
-        Serial.println("Ligando luz da sala. \n");
-        digitalWrite(luz_Sala, HIGH);
-        luzSala = "ligado";
-      }
-    }
-    else if (frase.startsWith("desligar luz da sala"))
-    {
-      if (luzSala == "desligado")
-      {
-        Serial.println("A luz da sala já está " + luzSala);
-      }
-      else
-      {
-        Serial.println("Desligando luz da sala. \n");
-        digitalWrite(luz_Sala, LOW);
-        luzSala = "desligado";
-      }
-    }
-
-    else if (frase.startsWith("ligar luz do banheiro"))
-    { //Testa se uma String começa ou não com os caracteres de uma outra String
-      if (luzBanheiro == "ligado")
-      {
-        Serial.println("A luz do banheiro já está " + luzBanheiro);
-      }
-      else
-      {
-        Serial.println("Ligando luz do banheiro. \n");
-        digitalWrite(luz_Banheiro, HIGH);
-        luzBanheiro = "ligado";
-      }
-    }
-    else if (frase.startsWith("desligar luz do banheiro"))
-    {
-      if (luzBanheiro == "desligado")
-      {
-        Serial.println("A luz do banheiro já está " + luzBanheiro);
-      }
-      else
-      {
-        Serial.println("Desligando luz do banheiro. \n");
-        digitalWrite(luz_Banheiro, LOW);
-        luzBanheiro = "desligado";
+        Serial.println("Desligando lampâda. \n");
+        digitalWrite(rele_luz, LOW);
+        luz = "desligado";
       }
     }
     else Serial.println("Não reconheço este comando!");
